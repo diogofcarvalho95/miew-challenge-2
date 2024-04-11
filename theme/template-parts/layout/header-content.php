@@ -6,8 +6,6 @@
  *
  * @package miew
  */
-
- $themeURL = get_template_directory_uri();
 ?>
 
 <header class="py-4 hidden">
@@ -17,8 +15,7 @@
         <div class="container relative flex flex-wrap items-center justify-between">
 
             <a class="navbar-brand md:me-8" href="<?php echo get_site_url();?>">
-                <img src="<?php echo $themeURL;?>/assets/images/logo-dark.png" class="h-5 inline-block dark:hidden" alt="">
-                <img src="<?php echo $themeURL;?>/assets/images/logo-light.png" class="h-5 hidden dark:inline-block" alt="">
+                <img src="assets/images/logo.png" class="h-5 inline-block dark:hidden" alt="">
             </a>
 
             <div class="nav-icons flex items-center lg:order-2 md:ms-6">
@@ -34,16 +31,7 @@
                         <a href="#features">Features</a>
                     </li>
                     <li>
-                        <a href="#screenshot">Application</a>
-                    </li>
-                    <li>
-                        <a href="#faqs">FAQs</a>
-                    </li>
-                    <li>
-                        <a href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a href="#reviews">Reviews</a>
+                        <a href="#screenshot">Screenshots</a>
                     </li>
                     <li>
                         <a href="#contact">Contact us</a>
